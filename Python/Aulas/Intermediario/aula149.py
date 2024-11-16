@@ -1,0 +1,13 @@
+# Try, except, else and finally
+
+try:
+    ...
+
+finally:
+    ...
+except:
+    ...
+else:
+    ...
+
+# Bascamente tudo que try e except so o basico
