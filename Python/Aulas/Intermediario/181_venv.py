@@ -9,3 +9,6 @@
 # lembrar:  
 #   python -m venv "qualquer nome aqui mais por custume" venv e sem ""
 #   python -m venv venv
+
+#   .\venv\scripts\activate isso para ativar o venv
+#   deactivate isso para desativar
