@@ -29,6 +29,7 @@ with open(caminho_arquivo, 'w') as arquivo:
 with open(caminho_arquivo, 'w') as arquivo:
     print('Olá mundo')
     print('Arquivo vai ser fechado')
+    
 with open(caminho_arquivo, 'w+') as arquivo:
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n')
@@ -47,5 +48,6 @@ with open(caminho_arquivo, 'w+') as arquivo:
     for linha in arquivo.readlines():
         print(linha.strip())
 print('#' * 10)
+
 with open(caminho_arquivo, 'r') as arquivo:
     print(arquivo.read())
